@@ -27,7 +27,7 @@ if ( MILESTONE == "STABLE" or MILESTONE == "RELEASE" ) and PRODUCT == "TrueNAS":
     repos += {
        "name": "freenas",
        "path": "freenas",
-       "url": "http://github.com/freenas/freenas.git",
+       "url": "https://github.com/vaibhav-rbs/freenas",
        "branch": "TN-9.10-STABLE"
     }
 
@@ -35,7 +35,7 @@ elif ( MILESTONE == "STABLE" or MILESONE =="RELEASE" ) :
     repos += {
        "name": "freenas",
        "path": "freenas",
-       "url": "http://github.com/freenas/freenas.git",
+       "url": "https://github.com/vaibhav-rbs/freenas",
        "branch": "9.10-STABLE"
     }
 
@@ -43,7 +43,7 @@ else:
     repos += {
         "name": "freenas",
         "path": "freenas",
-        "url": "http://github.com/freenas/freenas.git",
+        "url": "https://github.com/vaibhav-rbs/freenas",
         "branch": "master"
     }
 
