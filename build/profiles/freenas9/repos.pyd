@@ -49,7 +49,7 @@ else:
 
     repos += {
         "name": "freenas-docs",
-        "path": "freenas/docs/userguide",
+        "path": "freenas-docs",
         "url": "http://github.com/freenas/freenas-docs.git",
         "branch": "master"
     }
